@@ -6,7 +6,7 @@ que decifram os códigos elétricos obscuros, os enigmas escondidos do capital.
 Desfaz toda a ilusão, na noite sideral, que é a exploração disfarçada de lucros.
 
 ## O Enigma do Elétrico Desenfreado
-![](src/trolley.jpg)
+![](../data/trolley.jpg)
 
 
 De pé, junto a um interruptor ferroviário, sinto o mundo a pesar nos ombros. 
@@ -16,4 +16,12 @@ Um eléctrico sem travões avança e sou eu, num ímpeto de modernidade e dilema
 - Trilho 2: Mas se, num movimento quase fatalista, desviar o eléctrico para o outro trilho, ele destruirá um mercado vasto. Não um mercado qualquer, mas o símbolo de toda a mão-de-obra infantil e escravizada das minas africanas, que alimentam a nossa insaciável sede de modernidade. Esta escolha pode representar o fim e a liberdade de inúmeras almas aprisionadas, trazendo à luz a cruel realidade das trevas da produção moderna.
 
 O que fazer? Deixar o eléctrico seguir, e com ele a destruição da nossa modernidade, ou intervir e enfrentar a sombra que paira sobre o brilho dos nossos dispositivos?
+
+### Deslocar Engrenagens
+![](../data/great_reset.jpg)
+
+Levar o Homem ao Hemisfério da Máquina, Onde Não São Meras Peças,
+
+Levar a Máquina ao Hemisfério do Homem, Onde Engrenagens Imperam como Seres.
+
 
