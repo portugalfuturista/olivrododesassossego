@@ -1,0 +1,1 @@
+# Kubera OS: Portabilidade do castrOS para aplicações terrestres
