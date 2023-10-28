@@ -1,0 +1,1 @@
+# `FOSSIGFOX` - Open Sigfox Protocol Specifications
