@@ -1,6 +1,6 @@
 # A Eletricidade Reflectida: um diálogo entre Álvaro de Campos, e a sua busca por serenidade e poesia
 ![](../data/alvaro_e_a_energia.jpg)
-_"Sob o manto do céu nocturno, onde as estrelas cintilam como lâmpadas numa vasta rede eléctrica, Álvaro de Campos, o engenheiro futurista, solta um suspiro"_
+ _"Sob o manto do céu nocturno, onde as estrelas cintilam como lâmpadas numa vasta rede eléctrica, Álvaro de Campos, o engenheiro futurista, solta um suspiro"_
 
 **Álvaro de Campos:**
 ```poem
