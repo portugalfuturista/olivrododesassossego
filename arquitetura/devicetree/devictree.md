@@ -18,7 +18,7 @@ or all such third party intellectual property rights.
 To initialize and boot a computer system, various software components interact. Firmware performs low-level initialization of the system hardware before passing control to software such as an operating system, bootloader, or hypervisor. Bootloaders and hypervisors can, in turn, load and transfer control to operating systems. Standard, consistent interfaces and conventions facilitate the interactions between these software components.
 
 In this document, the term boot program refers to a software component that initializes the system state and executes another software component, referred to as a client program. Examples of boot programs include firmware, bootloaders, and hypervisors. Examples of client programs include bootloaders, hypervisors, operating systems, and special-purpose programs. A piece of software may be both a client program and a boot program (e.g., a hypervisor).
-
+maníaco que estou, vai ser duma direta....
 This specification, the Devicetree Specification (DTSpec), provides a complete boot program to client program interface definition, combined with minimum system requirements that facilitate the development of a wide variety of systems.
 
 This specification is targeted towards the requirements of embedded systems. An embedded system typically consists of system hardware, an operating system, and application software that are custom-designed to perform a fixed, specific set of tasks. This is unlike general-purpose computers, which are designed to be customized by a user with a variety of software and I/O devices. Other characteristics of embedded systems may include:
