@@ -1,0 +1,117 @@
+name: Publish Content
+
+on:
+  issues:
+    types: [opened, edited]
+
+jobs:
+  publish:
+    if: contains(github.event.issue.labels.*.name, 'publish')
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Parse Issue and Create File
+        id: parse
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const fs = require('fs');
+            const path = require('path');
+
+            const body = context.payload.issue.body;
+
+            // Regex to parse sections
+            const titleRegex = /### Title\s+([\s\S]*?)\s+(?=### Category)/;
+            const categoryRegex = /### Category\s+([\s\S]*?)\s+(?=### Content)/;
+            const contentRegex = /### Content\s+([\s\S]*?)$/;
+
+            const titleMatch = body.match(titleRegex);
+            const categoryMatch = body.match(categoryRegex);
+            const contentMatch = body.match(contentRegex);
+
+            if (!titleMatch || !categoryMatch || !contentMatch) {
+              core.setFailed("Could not parse issue body. Ensure the issue follows the template.");
+              return;
+            }
+
+            let title = titleMatch[1].trim();
+            let category = categoryMatch[1].trim();
+            let content = contentMatch[1].trim();
+
+            // Simple sanitization for folder name to prevent directory traversal
+            category = category.replace(/[^a-zA-Z0-9_\-\.]/g, '');
+
+            function slugify(text) {
+              return text.toString().toLowerCase()
+                .replace(/\s+/g, '-')
+                .replace(/[^\w\-]+/g, '')
+                .replace(/\-\-+/g, '-')
+                .replace(/^-+/, '')
+                .replace(/-+$/, '');
+            }
+
+            const slug = slugify(title);
+            const filename = `${slug}.md`;
+            const dir = category || 'inbox'; // Default to inbox if empty
+
+            // Ensure directory exists
+            if (!fs.existsSync(dir)){
+                fs.mkdirSync(dir, { recursive: true });
+            }
+
+            let filepath = path.join(dir, filename);
+
+            // Avoid overwriting existing files
+            if (fs.existsSync(filepath)) {
+               const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
+               filepath = path.join(dir, `${slug}-${timestamp}.md`);
+            }
+
+            const fileContent = `---
+title: "${title}"
+date: ${new Date().toISOString()}
+author: ${context.payload.issue.user.login}
+---
+
+${content}
+`;
+
+            fs.writeFileSync(filepath, fileContent);
+            console.log(`Created file: ${filepath}`);
+
+            core.setOutput('filepath', filepath);
+
+      - name: Commit and Push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add "${{ steps.parse.outputs.filepath }}"
+          git commit -m "Add content from issue #${{ github.event.issue.number }}"
+          git push
+
+      - name: Comment and Close Issue
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const filepath = "${{ steps.parse.outputs.filepath }}";
+            const issueNumber = context.payload.issue.number;
+
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: issueNumber,
+              body: `Content published successfully! File created at \`${filepath}\`.`
+            });
+
+            await github.rest.issues.update({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: issueNumber,
+              state: 'closed'
+            });
