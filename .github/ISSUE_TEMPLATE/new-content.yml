@@ -1,0 +1,34 @@
+name: New Content
+description: Submit a new text, poem, or study.
+title: "[Content]: "
+labels: ["publish"]
+body:
+  - type: input
+    id: title
+    attributes:
+      label: Title
+      description: The title of your content.
+      placeholder: Enter the title here
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      description: Select the category for your content.
+      options:
+        - inbox
+        - arquitetura
+        - eletricidade
+        - eletrónica
+        - livro
+    validations:
+      required: true
+  - type: textarea
+    id: content
+    attributes:
+      label: Content
+      description: Write your content here.
+      placeholder: Start writing...
+    validations:
+      required: true
