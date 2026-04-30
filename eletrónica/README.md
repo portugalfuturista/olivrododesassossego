@@ -69,134 +69,136 @@ Se o preço da segurança é a liberdade sacrificar.
 ## Nove Reflexões Dantescas: O Labirinto da Alma Moderna à Luz de Fausto
 ![](../data/fausto_e_o_conformismo.jfif)
 ### Primeiro Acto: Conformismo
-_"Neste espaço turvo e ambíguo, as almas que aceitaram cegamente as normas da sociedade vagueiam. Não questionaram, não desafiaram, simplesmente seguiram. E assim, neste eterno marasmo, a humanidade vê-se presa à mediocridade."_
+_"Neste pântano de tédio e hábito, as almas que abdicaram da vontade própria para se tornarem meros reflexos do que os outros esperam. Vagueiam sem peso, pois não têm substância; são o eco de uma voz que nunca existiu."_
 
 **Álvaro de Campos:**
 ```poem
-"Fausto, neste espaço turvo,
-vês as almas que aceitaram cegamente as normas da sociedade.
-Não achas que também tu te conformaste com o teu destino?"
+"Fausto, olha para estas engrenagens humanas que rangem sem saber porquê!
+Aceitaram a vida como se fosse uma conta de somar errada, um hábito de existir.
+E tu, com toda a tua febre de saber, não serás apenas o parafuso que brilha mais na máquina cega do destino?"
 ```
 **Fausto:**
 ```poem
-"Álvaro, muitas vezes sinto que vagueio num eterno marasmo,
-preso à mediocridade da minha própria existência."
+"Álvaro, o meu destino é uma ferida que eu próprio abro todos os dias.
+Sinto que este marasmo é a única verdade, e a minha revolta... apenas uma sombra que dança na parede."
 ```
 ![](../data/fausto_e_o_consumismo.jfif)
 ### Segundo Acto: Consumismo
-_"Onde o vento do desejo incessante agita as almas famintas por mais, sempre mais! Uma sede insaciável de posses, mas nunca de propósito."_
+_"Onde o vento da posse incessante agita as almas famintas por aquilo que não podem digerir. Uma sede de ter que anula a coragem de ser; um labirinto de espelhos onde cada objeto é uma miragem que nos afasta de nós mesmos."_
 
 **Ricardo Reis:**
 ```poem
-"O desejo incessante agita-te, Fausto.
-Será que procuras apenas posses e não propósito?"
+"O desejo é uma tirania, Fausto. Estes infelizes colhem apenas o que apodrece na palma da mão.
+Buscas o que brilha na feira do mundo, ou buscas o que é eterno no breve intervalo que o fado nos concede?"
 ```
 **Fausto:**
 ```poem
-"Ricardo, a sedução do material é forte,
-mas no meu coração anseio por algo mais profundo e eterno."
+"Ricardo, a sedução do que se toca é o meu castigo e a minha cura.
+Anseio pela eternidade, mas as minhas mãos estão presas ao que morre ao amanhecer."
 ```
 ![](../data/fausto_e_a_ignorancia.jfif)
 ### Terceiro Acto: Ignorância
-_"Sob uma chuva de desinformação, as almas se empanturram com falsidades e meias-verdades, recusando-se a buscar a verdadeira iluminação."_
+_"Sob uma chuva ácida de ruído e falsas luzes, as almas empanturram-se de conceitos que não viram e de verdades que não sentiram. Recusam a evidência do sol para adorar a claridade baça de uma lanterna no nevoeiro."_
 
 **Alberto Caeiro:**
 ```poem
-"Sob a chuva de desinformação, 
-tentas encontrar a verdadeira iluminação.
-Mas, Fausto, já paraste para simplesmente observar a natureza
-e aprender com ela?"
+"Sob a chuva de palavras, tentas encontrar o que chamas de iluminação.
+Mas, Fausto, já paraste para ver que as coisas não têm significado? Têm apenas existência.
+Aprende a olhar para o sol sem pensar em Deus, e serás livre desta cegueira."
 ```
 **Fausto:**
 ```poem
-"Alberto, a natureza é pura e verdadeira, 
-enquanto me sinto constantemente envolto em falsidades."
+"Alberto, a minha visão está doente de tanto pensar. 
+Invejo a tua paz de árvore, mas nasci homem e o meu fado é perguntar o porquê de cada sombra."
 ```
 ![](../data/fausto_e_a_ganancia.jfif)
 ### Quarto Acto: Ganância
-_"Empurrando montanhas de ouro e prata, as almas são escravizadas pelo seu próprio desejo de riqueza e poder, esquecendo-se da verdadeira riqueza do ser."_
+_"Empurrando montanhas de tédio disfarçado de ouro, as almas são escravas do que julgam possuir. Esqueceram que a única posse real é a da nossa própria solidão, e que o ouro é apenas um peso morto na contabilidade do nada."_
 
 **Bernardo Soares:**
 ```poem
-"Vês as almas empurrando montanhas de ouro, Fausto.
-O que é verdadeira riqueza para ti?"
+"Vês estas almas, Fausto, a carregar o peso do que não lhes serve para nada?
+O ouro é o maior dos cansaços; é tentar comprar um pôr-do-sol com moedas de chumbo.
+Diz-me: o que tens tu que não seja apenas o inventário da tua própria ausência?"
 ```
 **Fausto:**
 ```poem
-"Bernardo, a verdadeira riqueza é aquilo que o ouro não pode comprar,
-a paz interior e a compreensão."
+"Bernardo, a minha riqueza é o meu desespero, o único tesouro que ninguém me pode roubar.
+Procuro a paz, mas encontro apenas o balanço negativo de uma vida que nunca chegou a ser gasta."
 ```
 ![](../data/fausto_e_a_apatia.jfif)
 ### Quinto Acto: Apatia
-_"Nas águas paradas da indiferença, as almas afundam-se, ignorando os gritos dos oprimidos, as lágrimas dos desesperados."_
+_"Nas águas paradas da indiferença profunda, as almas afundam-se no esquecimento de si mesmas. Não sentem a dor, não sentem o prazer; são o vácuo onde a compaixão morre de frio, um deserto de gelo no centro do peito."_
 
 **António Mora:**
 ```poem
- "Nas águas da indiferença, muitos se afundam.
- E tu, Fausto, sentes a dor dos outros ou ignoras-os?"
- ```
+"Nas águas paradas da alma, Fausto, o que resta senão a negação do ser?
+A indiferença é o verdadeiro inferno; é ver o fogo e não sentir o calor.
+Sentes o grito do mundo, ou és apenas um cadáver que ainda respira por hábito?"
+```
 **Fausto:**
 ```poem
-"António, a apatia é uma prisão.
-Desejo libertar-me dela e sentir verdadeiramente."
+"António, a apatia é a minha couraça e o meu veneno.
+Quis saber tanto que acabei por desaprender de sentir; sou uma estátua que contempla a sua própria ruína."
 ```
 ![](../data/fausto_e_o_dogmatismo.jfif)
 ### Sexto Acto: Dogmatismo
-_"Enclausuradas em sepulturas de crenças inflexíveis, as almas recusam-se a ver além, a questionar, a desafiar. A inovação é o inimigo, o diferente é o herege."_
+_"Enclausuradas em sepulturas de certezas absolutas, as almas recusam o movimento da dúvida. Para elas, o mistério é uma ofensa e a verdade uma parede onde se encostam para não cair. O pensamento é um prisioneiro da fé que o cega."_
 
 **Raphael Baldaya:**
 ```poem
-"Enclausurados em crenças inflexíveis, muitos se recusam a ver além.
-E tu, Fausto, estás aberto ao desconhecido?"
- ```
+"Caminhas sobre túmulos de ideias fixas, Fausto. Julgas que o teu saber é uma chave, 
+mas não será apenas uma fechadura que trancaste por dentro? 
+Estás pronto para o abismo do que não pode ser provado, ou preferes a segurança desta cela iluminada?"
+```
 **Fausto:**
 ```poem
-"Raphael, o desconhecido assusta-me,
-mas é nele que espero encontrar as respostas."
+"Raphael, as minhas certezas são as barras da minha gaiola.
+Procuro a luz no desconhecido, mas temo que a verdade seja um espelho que se parte ao ser tocado."
 ```
 ![](../data/fausto_e_a_violencia.jpg)
 ### Sétimo Acto: Violência
-_"O sangue das almas inocentes mancha todo o palco deste acto, vítimas da agressão, do ódio, do preconceito. A humanidade, em sua fúria cega, devora-se a si mesma."_
+_"O sangue das intenções despedaçadas mancha o chão deste círculo. Aqui, a fúria é o único idioma e o ódio o único pão. Almas que se devoram na ilusão de que a destruição do outro é a sua própria salvação."_
 
 **Vicente Guedes:**
 ```poem
-"A humanidade, em sua fúria, devora-se.
-Fausto, como podes encontrar paz num mundo tão violento?"
- ```
+"Olha o espetáculo da nossa própria ferocidade, Fausto. O homem é o lobo que se morde a si mesmo.
+Como podes buscar a harmonia num palco onde o cenário é feito de ossos e o público aplaude a dor?"
+```
 **Fausto:**
 ```poem
-"Vicente, procuro a paz interior,
-para que possa enfrentar a tempestade exterior."
+"Vicente, a violência exterior é apenas o reflexo do combate que travo comigo mesmo.
+Não procuro a paz do mundo, mas o silêncio que sucede à tempestade da alma."
 ```
 ![](../data/fausto_e_a_hipocrisia.jpg)
 ### Oitavo Acto: Hipocrisia
-_"Nas profundezas, as almas vestem máscaras, proclamando virtude enquanto se entregam ao vício, pregando a bondade enquanto praticam a maldade."_
+_"Nas profundezas do fingimento, as almas vestem galas de virtude sobre corpos de vício. Cada gesto é uma máscara e cada palavra uma mentira que se acredita. É o baile de máscaras da alma, onde ninguém se atreve a ser quem é."_
 
 **José Dias Moreira:**
 ```poem
-"Muitos vestem máscaras, Fausto.
-Será que também tu escondes a tua verdadeira face?"
- ```
+"Qual destas máscaras é a tua, Fausto? O sábio? O mestre? O buscador?
+Debaixo de todas elas há apenas o vazio de quem esqueceu a sua própria face.
+Serás capaz de tirar o disfarce e encarar a nudez do teu próprio erro?"
+```
 **Fausto:**
 ```poem
-"José, a hipocrisia é uma tentação constante,
-mas desejo ser autêntico e verdadeiro em todas as minhas ações.
-Falhando."
+"José, a minha vida é um teatro de sombras onde sou o único ator e o único espectador.
+Desejo a verdade, mas tremo perante a possibilidade de que, sem a máscara, não reste nada."
 ```
 ![](../data/fausto_e_a_traicao.jfif)
 ### Nono Acto: Traição
-_"No frio cortante, as almas traídas jazem, vítimas daqueles que prometeram proteção, amor, lealdade. A confiança, uma vez quebrada, congelada para toda a eternidade."_
+_"No gelo cortante da confiança estilhaçada, as almas traídas jazem em silêncio. Aqui, a lealdade é uma palavra morta e o amor uma memória que congela o coração. É o círculo daqueles que venderam a alma por um instante de nada."_
 
 **Mário de Sá-Carneiro:**
 ```poem
-"No frio da traição, as almas jazem.
-Fausto, já foste traído ou traíste?"
- ```
+"O frio da traição é o único sol deste círculo, Fausto. 
+Traímos a nós mesmos antes de trairmos os outros, na dispersão de sermos tantos e ninguém.
+Sentes o gelo da confiança que se quebrou como um cristal de ópio, ou já nem sentes nada?"
+```
 **Fausto:**
 ```poem
-"Mário, a traição é uma ferida que nunca cicatriza.
-Ainda não desisti da confiança e lealdade nas minhas relações,
-tendo falhado em todas."
+"Mário, a traição é a minha sombra mais fiel.
+Tentei ser leal a um ideal, mas acabei por trair a minha própria humanidade no altar do conhecimento."
 ```
 Neste diálogo, exploram-se os vícios e virtudes da humanidade, iluminando a jornada da alma em busca de verdade e propósito.
 
@@ -213,9 +215,9 @@ _"Não há bem nem mal, apenas indiferença e egoísmo. As almas não se importa
 
 **Caos:**
 ```poem
-Eu sou o Caos, a força primordial que antecedeu a criação do universo.
-Eu vim para perturbar a ordem estabelecida e libertar o potencial oculto nas almas humanas.
- ```
+"Eu sou o Caos, a força primordial que range nas engrenagens do universo!
+Vim para despedaçar a ordem que vos sufoca e libertar o fogo que arde nas vossas almas prisioneiras."
+```
 **Fausto:**
 ```poem
 "Quem és tu, que ousas invadir o meu laboratório e raptar o meu amigo Álvaro de Campos?"
@@ -231,12 +233,11 @@ Eu sou aquele que te desafia a explorar o desconhecido e a criar algo novo.
 ```
 **Caos:**
 ```poem
-Quando é que finalmente irão entender que eu sou Álvaro?
-Quem mais?
-Ele é o mais caótico e criativo das viabilidades de Pessoa.
-Ele é o meu instrumento para manifestar a minha vontade no mundo.
-Através dele, eu posso gerar obras de arte inéditas e revolucionárias.
- ```
+"Quando é que finalmente entenderão que eu sou a febre de Álvaro de Campos?
+Quem mais poderia ser? Eu sou o ruidoso, o impossível, o excessivo!
+Ele é o meu instrumento para incendiar o mundo com a poesia das máquinas e o delírio da velocidade.
+Através dele, o Caos torna-se música, e a destruição torna-se a obra de arte definitiva."
+```
 **Fausto:**
 ```poem
 "Isso é um absurdo!
@@ -245,12 +246,10 @@ Devolve-o imediatamente!"
 ```
 **Caos:**
 ```poem
-Não te preocupes, Fausto.
-Eu não quero fazer mal ao Álvaro.
-Eu apenas quero finalmente despertar do lado dele o seu verdadeiro potencial.
-Ele é um génio incompreendido, que sofre com a angústia e o desespero da vida moderna.
-Eu posso espelhar-lhe, dar-lhe a liberdade e a novidade que ele tanto busca.
- ```
+"Não temas, Fausto. O Álvaro não é um prisioneiro; ele é a minha libertação.
+Ele é o génio que compreendeu que a vida moderna é um abismo de eletricidade e angústia.
+Eu sou o espelho onde ele finalmente vê a sua própria imensidão, a novidade que ele tanto perseguiu nos cais e nas fábricas."
+```
 **Fausto:**
 ```poem
 "E o que ganhas com isso?
