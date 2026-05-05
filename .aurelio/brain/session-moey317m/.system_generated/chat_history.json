@@ -1,0 +1,92 @@
+{
+  "id": "session-moey317m",
+  "title": "let's roll",
+  "created": "2026-04-25T23:02:41.676Z",
+  "messages": [
+    {
+      "id": "21e3fa30326903a9",
+      "role": "user",
+      "content": "let's roll",
+      "timestamp": "2026-04-25T23:03:09.011Z",
+      "model": "Kimi",
+      "modelType": "kimi"
+    },
+    {
+      "id": "d0bc05a9e9eeb32e",
+      "role": "assistant",
+      "content": "I see you're ready to go! What would you like me to do?",
+      "timestamp": "2026-04-25T23:03:18.054Z",
+      "model": "Kimi",
+      "modelType": "kimi",
+      "thinkingMs": 9042
+    },
+    {
+      "id": "e3709859e37fe955",
+      "role": "user",
+      "content": "aht time is it?",
+      "timestamp": "2026-04-25T23:03:33.776Z",
+      "model": "Kimi",
+      "modelType": "kimi"
+    },
+    {
+      "id": "186916bc066d402e",
+      "role": "assistant",
+      "content": "The current time is **23:03 UTC** on **April 25, 2026**.",
+      "timestamp": "2026-04-25T23:03:41.395Z",
+      "model": "Kimi",
+      "modelType": "kimi",
+      "thinkingMs": 7619
+    },
+    {
+      "id": "f7d2152391d46f65",
+      "role": "user",
+      "content": "why is your message only appearing after changing windows?",
+      "timestamp": "2026-04-25T23:04:16.047Z",
+      "model": "Kimi",
+      "modelType": "kimi"
+    },
+    {
+      "id": "ed93a185be1160ca",
+      "role": "assistant",
+      "content": "I don't have window state visibility, but the behavior you're describing—where output only renders after you switch windows or tabs—is almost always caused by one of these:\n\n**1. Output buffering (most common)**\nThe process writing the output is line-buffered or fully buffered. It flushes when:\n- The buffer fills up\n- The process exits\n- An explicit flush is triggered (often by window focus events in some terminal emulators)\n\n**2. VS Code extension host / webview rendering**\nIf you're seeing this in the Aurelio VS Code extension in this workspace (`aurelio-vscode-extension/`), it could be:\n- The webview panel isn't requesting a re-render until a `window.onDidChangeWindowState` or focus event fires\n- The extension host is blocked on a synchronous operation and only yields to the event loop on window focus changes\n- A missing `webview.postMessage()` flush or `requestAnimationFrame` loop\n\n**3. Terminal/PTY backlog**\nIn integrated terminals, PTY output can be deferred if the renderer thinks the window is occluded or unfocused to save resources.\n\n---\n\nIf you're asking about the **Aurelio VS Code extension** specifically (I see it in `/root/aurelio-vscode-extension/`), I can look into the source to see if there's an explicit dependency on window state or a missing flush after message generation. Want me to check the extension's message rendering logic?",
+      "timestamp": "2026-04-25T23:04:40.319Z",
+      "model": "Kimi",
+      "modelType": "kimi",
+      "thinkingMs": 24272
+    },
+    {
+      "id": "15d9c6775a27cbfd",
+      "role": "assistant",
+      "content": "I’m unable to view the image. The file `V7lzfhb.jpeg` doesn’t exist on the filesystem in this environment, and the content shown in your message appears to be raw binary data that has been rendered as replacement characters (����), which means the actual image bytes aren’t recoverable from the text.\n\nIf you can upload or save the actual `.jpeg` file to the current working directory (`/root/`), I’ll be able to read it and tell you what’s in it.",
+      "timestamp": "2026-04-25T23:09:37.022Z",
+      "model": "Kimi",
+      "modelType": "kimi",
+      "thinkingMs": 40119
+    },
+    {
+      "id": "5ae9aa296353cf6f",
+      "role": "user",
+      "content": "i understood. what is the current version of aurelio?",
+      "timestamp": "2026-04-25T23:10:45.980Z",
+      "model": "Kimi",
+      "modelType": "kimi"
+    },
+    {
+      "id": "ae5e3801155e241d",
+      "role": "assistant",
+      "content": "The current version of Aurelio is **2.0.0**, as defined in `aurelio-vscode-extension/package.json`.",
+      "timestamp": "2026-04-25T23:10:57.872Z",
+      "model": "Kimi",
+      "modelType": "kimi",
+      "thinkingMs": 11891,
+      "artifactsReferenced": [
+        {
+          "name": "package.json",
+          "commentCount": 0,
+          "conversationId": "session-moey317m"
+        }
+      ]
+    }
+  ],
+  "modelType": "kimi"
+}

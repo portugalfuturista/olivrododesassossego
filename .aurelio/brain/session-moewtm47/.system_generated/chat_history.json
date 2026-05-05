@@ -1,0 +1,53 @@
+{
+  "id": "session-moewtm47",
+  "title": "Restored Session",
+  "created": "2026-04-25T22:27:34.748Z",
+  "messages": [
+    {
+      "id": "2fa479f14e00f2d3",
+      "role": "assistant",
+      "content": "Hello! How can I help you today?",
+      "timestamp": "2026-04-25T22:27:37.551Z",
+      "model": "Kimi",
+      "modelType": "kimi",
+      "thinkingMs": 9757
+    },
+    {
+      "id": "16dbaf5b9fa7a5cd",
+      "role": "assistant",
+      "content": "Hello! I'm Kimi Code CLI, part of the Aurelio Agent network. How can I help you today?",
+      "timestamp": "2026-04-25T22:27:48.422Z",
+      "model": "Kimi",
+      "modelType": "kimi",
+      "thinkingMs": 6382
+    },
+    {
+      "id": "b4886d14493a4aad",
+      "role": "assistant",
+      "content": "The current time is **22:28:16 UTC** on **April 25, 2026** (Saturday).",
+      "timestamp": "2026-04-25T22:28:21.823Z",
+      "model": "Kimi",
+      "modelType": "kimi",
+      "thinkingMs": 8063
+    },
+    {
+      "id": "d2ffe114d012dfb3",
+      "role": "assistant",
+      "content": "Olá! Estou pronto como Kimi Code CLI na rede Aurelio Agent.\n\nPosso executar tarefas diretamente ou delegar subtarefas a outros heterónimos quando necessário. O que precisas que eu faça?",
+      "timestamp": "2026-04-25T22:28:42.789Z",
+      "model": "Kimi",
+      "modelType": "kimi",
+      "thinkingMs": 10244
+    },
+    {
+      "id": "589c16983a742115",
+      "role": "assistant",
+      "content": "I don't know your name yet—you haven't shared it with me in this conversation. If you'd like to tell me, I'm happy to use it!",
+      "timestamp": "2026-04-25T22:28:57.469Z",
+      "model": "Kimi",
+      "modelType": "kimi",
+      "thinkingMs": 8247
+    }
+  ],
+  "modelType": "kimi"
+}
