@@ -1,3 +1,10 @@
 {
-    "idf.currentSetup": "/home/fcunha/esp/v5.5.2/esp-idf"
+  "idf.currentSetup": "/home/fcunha/esp/v5.5.2/esp-idf",
+  "idf.customExtraVars": {},
+  "clangd.path": "/home/fcunha/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin/clangd",
+  "clangd.arguments": [
+    "--background-index",
+    "--query-driver=**",
+    "--compile-commands-dir=/home/fcunha/portugalfuturista/olivrododesassossego/build"
+  ]
 }
