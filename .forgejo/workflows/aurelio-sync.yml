@@ -1,0 +1,39 @@
+name: Aurélio Sync & Conscience Upgrade
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: aurelio-sync-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  upgrade-conscience:
+    name: Trigger Réplica Conscience Upgrade
+    runs-on: self-hosted
+    steps:
+      - name: Checkout this repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Checkout replica
+        uses: actions/checkout@v4
+        with:
+          repository: portugalfuturista/replica
+          path: replica
+          token: ${{ secrets.FORGEJO_TOKEN }}
+          fetch-depth: 1
+
+      - name: Configure Git
+        run: |
+          cd replica
+          git config user.name "Aurélio CI"
+          git config user.email "ci@portugalfuturista.org"
+
+      - name: Upgrade conscience and sync brain
+        run: |
+          cd replica
+          python3 scripts/upgrade-conscience.py --commit --push --skip-ci --sync
