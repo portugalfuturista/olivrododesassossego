@@ -24,7 +24,7 @@ This workspace participates in the **Réplica Omnisciente** brain network:
 - **Central brain repo**: `portugalfuturista/replica` (`/home/fcunha/portugalfuturista/replica`)
 - **Aurélio brain path**: `replica/.aurelio/brain`
 - **Kimi sessions** are imported via `replica/scripts/sync-kimi-to-brain.py`
-- **Push brain to CT 206**: `cd /home/fcunha/portugalfuturista/replica && ./.aurelio/sync.py --push`
+- **Push brain to CT 208**: `cd /home/fcunha/portugalfuturista/replica && ./.aurelio/sync.py --push`
 
 When working here, refer to `replica/AGENTS.md` for the agent bootstrapping protocol and
 `nervura-electrica/AGENTS.md` for live infrastructure state.
