@@ -1,0 +1,66 @@
+{
+  "mcpServers": {
+    "electrical-eda-mcp": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-remote",
+        "https://electrical-eda-mcp.portugalfuturista.org/sse"
+      ]
+    },
+    "pf-forgejo-scribe": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-remote",
+        "http://192.168.0.125:18101/sse"
+      ],
+      "description": "Forgejo Git operations for code.portugalfuturista.org"
+    },
+    "zai-vision": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@z_ai/mcp-server"
+      ],
+      "env": {
+        "Z_AI_API_KEY": "${Z_AI_API_KEY}",
+        "Z_AI_MODE": "ZAI"
+      },
+      "description": "z-ai GLM-4.6V vision understanding"
+    },
+    "zai-web-search": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-remote",
+        "https://api.z.ai/api/mcp/web_search_prime/mcp",
+        "--header",
+        "Authorization: Bearer ${Z_AI_API_KEY}"
+      ],
+      "description": "z-ai web search prime"
+    },
+    "zai-web-reader": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-remote",
+        "https://api.z.ai/api/mcp/web_reader/mcp",
+        "--header",
+        "Authorization: Bearer ${Z_AI_API_KEY}"
+      ],
+      "description": "z-ai web reader"
+    },
+    "zai-zread": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-remote",
+        "https://api.z.ai/api/mcp/zread/mcp",
+        "--header",
+        "Authorization: Bearer ${Z_AI_API_KEY}"
+      ],
+      "description": "z-ai ZRead documentation and repository reader"
+    }
+  }
+}

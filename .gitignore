@@ -1,3 +1,4 @@
 # Runtime brain / session artifacts
 .aurelio/brain/*/
 .aurelio/brain/.system_generated/
+.env
